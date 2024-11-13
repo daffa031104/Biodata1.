@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil Pribadi - Maskulin dan Modern dengan Foto Kotak</title>
+    <style>
+        /* CSS Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Latar belakang gradasi maskulin */
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background: linear-gradient(135deg, #1c1f2b, #3a3d4e); /* Gradasi biru navy dan abu-abu gelap */
+            color: #f0f0f0;
+        }
+
+        /* Kartu profil */
+        .profile-card {
+            background-color: #2b2f3a;
+            width: 380px;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+
+        .profile-card:hover {
+            transform: translateY(-10px); /* Animasi hover */
+            box-shadow: 0 15px 25px rgba(0, 0, 0, 0.7);
+        }
+
+        /* Gambar profil kotak */
+        .profile-card img {
+            width: 140px;
+            height: 140px;
+            object-fit: cover;
+            border: 4px solid #5a6473; /* Bingkai gambar */
+            margin-top: -70px;
+            transition: transform 0.3s ease;
+        }
+
+        .profile-card:hover img {
+            transform: scale(1.05); /* Efek zoom saat hover */
+        }
+
+        /* Nama dan deskripsi */
+        h2 {
+            font-size: 24px;
+            color: #00bcd4;
+            margin: 20px 0 10px;
+        }
+
+        p {
+            font-size: 16px;
+            color: #b0b0b0;
+            margin-bottom: 15px;
+        }
+
+        /* Tombol kontak */
+        .profile-card .contact-btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #00bcd4;
+            color: #ffffff;
+            border-radius: 25px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+            margin-top: 15px;
+        }
+
+        .profile-card .contact-btn:hover {
+            background-color: #0097a7; /* Warna saat hover */
+        }
+
+        /* Ikon media sosial */
+        .social-icons {
+            margin-top: 20px;
+        }
+
+        .social-icons a {
+            text-decoration: none;
+            color: #00bcd4;
+            font-size: 24px;
+            margin: 0 10px;
+            transition: color 0.3s ease;
+        }
+
+        .social-icons a:hover {
+            color: #0097a7; /* Warna ikon saat hover */
+        }
+    </style>
+</head>
+<body>
+
+    <div class="profile-card">
+        <img src="aku.jpg" alt="Foto Profil">
+        <h2>Muhamad Daffa Parlindungan</h2>
+        <p>Profesi: Mahasiswa</p>
+        <p>Saya adalah seorang Mahasiswa Institut Teknologi Sumatera Fakultas Infrastruktur Kewilayahan Teknik Geomatika yang memiliki minat dalam berlibur seharian. Senang mengeksplorasi hal baru dan berinovasi.</p>
+        <a href="mailto:mdaffaparlindungan82@gmail.com" class="contact-btn">Hubungi Saya 087773102804>
+        
+        <div class="social-icons">
+            <a href="https://instagram.com/m_daappaa" target="_blank">&#x1F4F7;</a> <!-- Ikon Instagram -->
+        </div>
+    </div>
+
+</body>
+</html>
